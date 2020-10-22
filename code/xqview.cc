@@ -62,7 +62,7 @@ int main()
 	  // Get the GS and show it
 	  VectorC V=Abs(Basis.Col(1));
 	  MatrixC Im=Standard_2D_Plot(V,N);
-	  Complex_Plot(Im, 40, 40, xsize, true, 0.3);
+	  Complex_Plot(Im, 40, 40, xsize, false, 0.5);
 	  Plot_Lines();
 	  EX_Flush();
 
